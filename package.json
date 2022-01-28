@@ -31,6 +31,8 @@
     "build": "nx build",
     "test": "nx test",
     "lint": "nx lint",
+    "buidl": "nx build remix-ide --skip-nx-cache",
+    "buidls": "npx nx build remix-ide --skip-nx-cache",
     "affected:apps": "nx affected:apps",
     "affected:libs": "nx affected:libs",
     "affected:build": "nx affected:build",
